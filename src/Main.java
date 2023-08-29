@@ -11,11 +11,11 @@ public class Main {
     }
     public static void main(String[] args) {
         //Проверка работоспособности алгоритма на следующих примерах
-        System.out.println(" 'zx 123 321 xz' - "+isPalindrome("zx 123 321 xz"));
-        System.out.println(" 'Bob' - "+isPalindrome("Bob"));
-        System.out.println(" '121' - "+isPalindrome("121"));
-        System.out.println(" 'I'm MI' - "+isPalindrome("I'm MI"));
-        System.out.println(" 'APAC' - "+isPalindrome("APAC"));
-        System.out.println(" '339' - "+isPalindrome("339"));
+        System.out.println(" 'zx 123 321 xz' - "+isPalindrome("zx 123 321 xz")); //true
+        System.out.println(" 'Bob' - "+isPalindrome("Bob")); //true
+        System.out.println(" '121' - "+isPalindrome("121")); //true
+        System.out.println(" 'I'm MI' - "+isPalindrome("I'm MI")); //true
+        System.out.println(" 'APAC' - "+isPalindrome("APAC")); //false
+        System.out.println(" '339' - "+isPalindrome("339")); //false
     }
 }
