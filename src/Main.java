@@ -6,7 +6,7 @@ public class Main {
         for (int i = 0; i < (cls.length() / 2); i++){
             s1 += cls.charAt(i);
             s2 += cls.charAt(cls.length() - (i+1));
-        }
+        } //Сложность алгоритма - O(n)
         return s1.equalsIgnoreCase(s2);
     }
     public static void main(String[] args) {
